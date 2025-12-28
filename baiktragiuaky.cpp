@@ -117,15 +117,20 @@ public:
 
             switch (choice) {
                 case 1: 
-				addEmployee(); break;
+				addEmployee(); 
+					break;
                 case 2: 
-				showAll(); break;
+				showAll(); 
+					break;
                 case 3: 
-				updateSalaryById(); break;
+				updateSalaryById(); 
+					break;
                 case 4: 
-				deleteById(); break;
+				deleteById(); 
+					break;
                 case 5: 
-				cout << "Tam biet!\n"; break;
+				cout << "Tam biet!\n"; 
+					break;
                 default: 
 				cout << "Lua chon sai!\n";
             }
